@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre-mim">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="apresentacao">
+        <div class="texto">
+            <h1>Olá, me chamo Heloisa!</h1>
+            <p>Front-end Developer</p>
+        </div>
+        <div class="linha"></div>
+        <div class="foto">
+            <img src="./imagens/Projeto (20241123021333).png"> <legend>Creditos: @onllynikii</legend>
+        </div>
+    </section>
+    
+
+    <!-- Seções -->
+    <section id="sobre-mim">
+        <h1>Sobre</h1>
+        <p>Comecei a gostar de tecnologia desde dos meus 12, o que não é muito tempo já que atualmente tenho 18, sempre pesquisando sobre modelos de eletronicos, e foi em uma dessas pesquisas em que eu descobri a area de programação e desde então me apaixonei pela area. Por conta disso estou fazendo um curso de desenvolvimento de sistemas e tenho um curso completp de programção web. Minha unica lingua basica atualmente é javascript, mas pretendo aumentar o leque de linguagens.</p>
+    </section>
+
+    <section id="habilidades">
+        <h1>Habilidades</h1>
+        <div class="linguagens">
+        <img src="./imagens/html.png">
+        <img src="./imagens/css.png">
+        <img src="./imagens/js.png">
+        </div>
+        
+    </section>
+
+    <section id="projetos">
+        <h1>Projetos</h1>
+        <div class="carousel-container">
+            <div class="carousel">
+              <div class="carousel-item">
+                <a href="https://heloisax06.github.io/honkai-caminhos/">
+                <img src="./imgproj/Captura de tela 2024-11-27 115610.png" alt="Projeto 1">
+                <div class="description">Este projeto é uma coisa simples, uma interação com a coluna mostra o cartão correspondente. Me inspirei o jogo Honkai star rail.</div>
+            </a>
+              </div>
+              <div class="carousel-item">
+                <img src="img.png" alt="Projeto 2">
+                <div class="description">Em construção</div>
+              </div>
+              <div class="carousel-item">
+                <img src="img.png" alt="Projeto 3">
+                <div class="description">Em construção</div>
+              </div>
+              <!-- Adicione mais itens conforme necessário -->
+            </div>
+          
+            <!-- Setas de navegação -->
+            <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <button class="next" onclick="moveCarousel(1)">&#10095;</button>
+          </div>
+          
+        
+    </section>
+
+    <section id="contatos">
+        <h1>Contatos</h1>
+       <a href="https://github.com/heloisax06"><img src="./imagens/github.png" class="github"></a>
+       <br><br>
+       <img src="./imagens/discord.png" class="discord"><legend>@bluegrey1572</legend>
+       <a href="#"><img src="./imagens/linkedin.png" class="linkedin"></a>
+    </section>
+
+    <script src="./scrpit.js"></script>
+</body>
+</html>
